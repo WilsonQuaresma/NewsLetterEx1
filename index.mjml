@@ -1,29 +1,59 @@
-<mjml>
-
+<mjml lang="pt">
+  
   <mj-head>
-
+    
     <mj-attributes>
-      <mj-text align="center" color="#555" />
-      <mj-section background-color="#fff" />
+      <mj-text align="left" color="#555" font-size="16px"/>
+      <mj-section background-color="#fff"/>
     </mj-attributes>
+    
+    
+    <mj-title>Hello mjml</mj-title>
+    
 
   </mj-head>
-
+  
   <mj-body background-color="#eee">
+    <mj-section background-color="#F0F0F0">
+    <mj-column>
+    <mj-text align="center">
+      
+    <a target="_blank"
+    href="https://wilsonquaresma.github.io/NewsLetterEx1/">
+    <span style="font-size:12px">Versão online</span>
+    </a>
+      
+     
+    </mj-text>
+    </mj-column>
+      
+    </mj-section>
+      
+    
+    
     <mj-section>
-
+      
       <mj-column>
-        <mj-text>
-          First column
+        <mj-text> 
+          First column 
         </mj-text>
       </mj-column>
-
+      
       <mj-column>
-        <mj-text>
-          Second column
+        <mj-text> 
+          Second column 
         </mj-text>
       </mj-column>
-
+      
+    </mj-section>
+    
+    
+    <mj-section>
+      <mj-column>
+        <mj-button border-radius="50px" href="https://depechemode.com" font-family="Helvetion" background-color="#000000" color="white"> 
+          click no FCP 
+          </mj-button>
+      </mj-column>
     </mj-section>
   </mj-body>
 </mjml>
